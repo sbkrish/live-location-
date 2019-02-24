@@ -1,0 +1,76 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#map {
+	width: 40%;
+	height: 300px;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table,
+td,
+th {
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid blue;
+	border-style: solid;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+table {
+	empty-cells: hide;
+	display: none;
+}
+
+.form {
+	text-align: center;
+	margin-top: 20px;
+}
+
+#submit {
+	width: 150px;
+	height: 40px;
+	display: none;
+}
+
+#success-msg {
+	display: none;
+}
+
+#success-msg p {
+	font-size: 20px;
+	color: green;
+}
+
+button {
+	margin: 20px;
+	width: 60px;
+	height: 30px;
+}
+
+#info {
+	text-align: center;
+	margin-top: 10%;
+	font-size: 24px;
+	font-weight: normal;
+	color: red;
+}
+

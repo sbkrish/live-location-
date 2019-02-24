@@ -1,0 +1,8 @@
+CREATE DATABASE google_map;
+
+CREATE TABLE 'coordinates' (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	latitude DECIMAL(8,6) DEFAULT NULL,
+	longitude DECIMAL(9,6) DEFAULT NULL
+);
+

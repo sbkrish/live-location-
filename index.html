@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="author" name="Balakrishnan S">
+		<title>Geo location</title>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCU1ABBJ6q95Be5aEXt4buA6oDh_a4K1Ic
+		&callback=initMap">
+		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h2>Location Finder</h2>
+		<p id="info">detecting location access...</p>
+		<div id="map"></div>
+		<table id="table">
+			<thead>
+				<th colspan="2">Coordinates</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Latitude</td>
+					<td id="latitude"></td>
+				</tr>
+				<tr>
+					<td>Longitude</td>
+					<td id="longitude"></td>
+				</tr>
+			</tbody>
+		</table>
+			<form method="POST" name="form" class="form">
+				<input type="hidden" name="lat" id="input_lat">
+				<input type="hidden" name="long" id="input_long">
+				<input type="button" name="submit" id="submit" onclick="myFunction()" value="Save My Location">
+				<div id="success-msg">
+					<p> Your location saved successfully</p>
+					<button onclick="location.reload();">Reload</button>
+				</div>
+			</form>
+	</body>
+</html>
